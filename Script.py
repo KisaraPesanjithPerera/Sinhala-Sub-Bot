@@ -1,15 +1,19 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍"""
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
+    START_TXT = """🔥𝓗𝓲 𝓣𝓱𝓮𝓻𝓮 {}
+
+♨️𝗔𝗱𝗱 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 𝗔𝗻𝗱 𝗚𝗶𝘃𝗲 𝗔𝗱𝗺𝗶𝗻. 𝗙𝗿𝗼𝗺 𝗧𝗵𝗮𝘁 𝗧𝗶𝗺𝗲 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗪𝗶𝗹𝗹 𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝗠𝗼𝘃𝗶𝗲𝘀 𝗔𝗻𝗱 𝗦𝗲𝗿𝗶𝗲𝘀 𝗙𝗼𝗿 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝘀. 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗛𝗮𝘃𝗲 𝗧𝗵𝗲 𝗟𝗮𝗿𝗴𝗲𝘀𝘁 𝗠𝗼𝘃𝗶𝗲 & 𝗦𝗲𝗿𝗶𝗲𝘀 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝗜𝗻 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺😜
+
+🤖By Using Our Service You Must Agree To Our Privacy Policy 👀"""
+    HELP_TXT = """🙋‍♂️𝙷𝙴𝚈 {}
+𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂🚀"""
+    ABOUT_TXT = """<b>○ 𝖬𝗒 𝖭𝖺𝗆𝖾</b>: <a href=https://t.me/BorutoAutoFilterRobot>Bᴏʀᴜᴛᴏ</a>
+<b>○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋</b>: <a href=https://github.com/KisaraPesanjithPerera>★彡ᕲᗩᖇᖶᕼ ᐺᗩᕲᘿᖇ彡★</a>
+<b>○ 𝖢𝗋𝖾𝖽𝗂𝗍𝗌</b> : <a href=https://t.me/EvaMariaDevs>𝖤𝗏𝖾𝗋𝗒𝗈𝗇𝖾 I𝗇 T𝗁𝗂𝗌 J𝗈𝗎𝗋𝗇𝖾𝗒</a> 
+<b>○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒</b> : <a href=http://docs.pyrogram.org/>𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆</a>
+<b>○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾</b> : <a href=http://t.me/python>𝖯𝗒𝗍𝗁𝗈𝗇 𝟥</a>
+<b>○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾</b> : <code>𝖬𝗈𝗇𝗀𝗈𝖣𝖡</code>
+<b>○ 𝖲𝖾𝗋𝗏𝖾𝗋</b> : <code>Heroku</code>
+<b>○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌</b> : <code>v1.0.1 [ Beta ]</code>"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
 - Source - https://github.com/EvamariaTG/EvaMaria  
