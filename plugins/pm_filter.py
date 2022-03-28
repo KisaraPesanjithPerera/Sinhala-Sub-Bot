@@ -676,8 +676,8 @@ async def auto_filter(client, msg, spoll=False):
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
-    imdb = await get_poster(search) if IMDB else None
-        if imdb and imdb.get('poster'):
+    imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
+        if imdb:
             await message.reply_photo(photo=imdb.get('poster'), caption=f"<b>📂 Here is What I Found In My Database For Your Query : {search}</b>\n\n<b>🏷 Title :</b> <a href={imdb['url']}>{imdb.get('title')}</a>\n<b>🎭 Genres :</b> {imdb.get('genres')}\n<b>🌟 Rating :</b> <a href={imdb['url']}/ratings>{imdb.get('rating')}</a>\n<b>☀️ Languages :</b> <code>{languages}</code>\n<b>👥 Cast :</b> <code>{cast}</code>\n<b>📀 RunTime:</b> {runtime} Minutes\n<b>📆 Release Info :</b> {release_date}\n<b>🎛 Countries :</b> <code>{countries}</code>\n\n<b>🍀Requested By :</b>\n{message.from_user.mention})\n<b>⚙️Powerd By :</b> @AnonymousBotsInfinity", reply_markup=InlineKeyboardMarkup(btn))
         elif imdb:
             await message.reply_text(f"<b>📂 Here is What I Found In My Database For Your Query : {search}</b>\n\n<b>🏷 Title :</b> <a href={imdb['url']}>{imdb.get('title')}</a>\n<b>🎭 Genres :</b> {imdb.get('genres')}\n<b>🌟 Rating :</b> <a href={imdb['url']}/ratings>{imdb.get('rating')}</a>\n<b>☀️ Languages :</b> <code>{languages}</code>\n<b>👥 Cast :</b> <code>{cast}</code>\n<b>📀 RunTime:</b> {runtime} Minutes\n<b>📆 Release Info :</b> {release_date}\n<b>🎛 Countries :</b> <code>{countries}</code>\n\n<b>🍀Requested By :</b>\n{message.from_user.mention})\n<b>⚙️Powerd By :</b> @AnonymousBotsInfinity", reply_markup=InlineKeyboardMarkup(btn))
