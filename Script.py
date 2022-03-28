@@ -14,12 +14,6 @@ class script(object):
 <b>○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾</b> : <code>𝖬𝗈𝗇𝗀𝗈𝖣𝖡</code>
 <b>○ 𝖲𝖾𝗋𝗏𝖾𝗋</b> : <code>Heroku</code>
 <b>○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌</b> : <code>v1.0.1 [ Beta ]</code>"""
-    SOURCE_TXT = """<b>NOTE📝:</b>
-- Boruto is a open source closed project🥲
-- Source Code 🔐  
-
-<b>CREDITS🌟</b>
-- 🌺<a href=https://t.me/EvaMariaDevs>𝖤𝗏𝖾𝗋𝗒𝗈𝗇𝖾 I𝗇 T𝗁𝗂𝗌 J𝗈𝗎𝗋𝗇𝖾𝗒</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters🧿</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Boruto will respond whenever a keyword is found the message🍀
