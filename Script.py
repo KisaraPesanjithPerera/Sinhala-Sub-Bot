@@ -14,76 +14,76 @@ class script(object):
 <b>○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾</b> : <code>𝖬𝗈𝗇𝗀𝗈𝖣𝖡</code>
 <b>○ 𝖲𝖾𝗋𝗏𝖾𝗋</b> : <code>Heroku</code>
 <b>○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌</b> : <code>v1.0.1 [ Beta ]</code>"""
-    SOURCE_TXT = """<b>NOTE:</b>
-- Eva Maria is a open source project. 
-- Source - https://github.com/EvamariaTG/EvaMaria  
+    SOURCE_TXT = """<b>NOTE📝:</b>
+- Boruto is a open source closed project🥲
+- Source Code 🔐  
 
-<b>DEVS:</b>
-- <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
-    MANUELFILTER_TXT = """Help: <b>Filters</b>
+<b>CREDITS🌟</b>
+- 🌺<a href=https://t.me/EvaMariaDevs>𝖤𝗏𝖾𝗋𝗒𝗈𝗇𝖾 I𝗇 T𝗁𝗂𝗌 J𝗈𝗎𝗋𝗇𝖾𝗒</a>"""
+    MANUELFILTER_TXT = """Help: <b>Filters🧿</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and Boruto will respond whenever a keyword is found the message🍀
 
-<b>NOTE:</b>
-1. eva maria should have admin privillage.
-2. only admins can add filters in a chat.
-3. alert buttons have a limit of 64 characters.
+<b>NOTE📝:</b>
+1. Boruto should have admin privillage.
+2. Only admins can add filters in a chat.
+3. Alert buttons have a limit of 64 characters.
 
-<b>Commands and Usage:</b>
+<b>Commands & Usage🚀</b>
 • /filter - <code>add a filter in chat</code>
 • /filters - <code>list all the filters of a chat</code>
 • /del - <code>delete a specific filter in chat</code>
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
-    BUTTON_TXT = """Help: <b>Buttons</b>
+    BUTTON_TXT = """Help: <b>Buttons🧿</b>
 
-- Eva Maria Supports both url and alert inline buttons.
+- Boruto supports both url and alert inline buttons🍀
 
-<b>NOTE:</b>
+<b>NOTE📝:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
+2. Boruto supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
-<b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+<b>📌URL Buttons:</b>
+<code>[Button Text](buttonurl:https://t.me/AnonymousBotsInfinity)</code>
 
-<b>Alert buttons:</b>
+<b>📌Alert Buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
-    AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
+    AUTOFILTER_TXT = """Help: <b>Auto Filter🧿</b>
 
-<b>NOTE:</b>
+<b>NOTE📝:</b>
 1. Make me the admin of your channel if it's private.
-2. make sure that your channel does not contains camrips, porn and fake files.
+2. Make sure that your channel does not contains camrips, porn and fake files.
 3. Forward the last message to me with quotes.
- I'll add all the files in that channel to my db."""
-    CONNECTION_TXT = """Help: <b>Connections</b>
+📂I'll add all the files in that channel to my db."""
+    CONNECTION_TXT = """Help: <b>Connections🧿</b>
 
 - Used to connect bot to PM for managing filters 
-- it helps to avoid spamming in groups.
+- It helps to avoid spamming in groups.
 
-<b>NOTE:</b>
+<b>NOTE📝:</b>
 1. Only admins can add a connection.
 2. Send <code>/connect</code> for connecting me to ur PM
 
-<b>Commands and Usage:</b>
+<b>Commands and Usage🚀</b>
 • /connect  - <code>connect a particular chat to your PM</code>
 • /disconnect  - <code>disconnect from a chat</code>
 • /connections - <code>list all your connections</code>"""
-    EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
+    EXTRAMOD_TXT = """Help: <b>Extra Modules🧿</b>
 
-<b>NOTE:</b>
-these are the extra features of Eva Maria
+<b>NOTE📝:</b>
+These are the extra features of Boruto🌹
 
-<b>Commands and Usage:</b>
+<b>Commands and Usage🚀</b>
 • /id - <code>get id of a specified user.</code>
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
-    ADMIN_TXT = """Help: <b>Admin mods</b>
+    ADMIN_TXT = """Help: <b>Admin mods🧿</b>
 
-<b>NOTE:</b>
-This module only works for my admins
+<b>NOTE📝:</b>
+This module only works for my admins🍀
 
-<b>Commands and Usage:</b>
+<b>Commands and Usage🚀</b>
 • /logs - <code>to get the rescent errors</code>
 • /stats - <code>to get status of files in db.</code>
 • /delete - <code>to delete a specific file from db.</code>
@@ -101,11 +101,11 @@ This module only works for my admins
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
     LOG_TEXT_G = """#NewGroup
-Group = {}(<code>{}</code>)
-Total Members = <code>{}</code>
-Added By - {}
+🍀Group = {}(<code>{}</code>)
+🙋‍♂️Total Members = <code>{}</code>
+🌺Added By - {}
 """
     LOG_TEXT_P = """#NewUser
-ID - <code>{}</code>
-Name - {}
+⚙️ID - <code>{}</code>
+🙋‍♂️Name - {}
 """
