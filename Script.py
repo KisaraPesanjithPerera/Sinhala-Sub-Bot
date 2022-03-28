@@ -8,7 +8,6 @@ class script(object):
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂🚀"""
     ABOUT_TXT = """<b>○ 𝖬𝗒 𝖭𝖺𝗆𝖾</b>: <a href=https://t.me/BorutoAutoFilterRobot>Bᴏʀᴜᴛᴏ</a>
 <b>○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋</b>: <a href=https://github.com/KisaraPesanjithPerera>★彡ᕲᗩᖇᖶᕼ ᐺᗩᕲᘿᖇ彡★</a>
-<b>○ 𝖢𝗋𝖾𝖽𝗂𝗍𝗌</b> : <a href=https://t.me/EvaMariaDevs>𝖤𝗏𝖾𝗋𝗒𝗈𝗇𝖾 I𝗇 T𝗁𝗂𝗌 J𝗈𝗎𝗋𝗇𝖾𝗒</a> 
 <b>○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒</b> : <a href=http://docs.pyrogram.org/>𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆</a>
 <b>○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾</b> : <a href=http://t.me/python>𝖯𝗒𝗍𝗁𝗈𝗇 𝟥</a>
 <b>○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾</b> : <code>𝖬𝗈𝗇𝗀𝗈𝖣𝖡</code>
