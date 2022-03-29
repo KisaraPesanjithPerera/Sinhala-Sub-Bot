@@ -6,7 +6,7 @@ class script(object):
 🤖By Using Our Service You Must Agree To Our Privacy Policy 👀"""
     HELP_TXT = """👋𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂🚀"""
-    ABOUT_TXT = """<b>○ 𝖬𝗒 𝖭𝖺𝗆𝖾</b>: <a href=https://t.me/BorutoAutoFilterRobot>Sɪɴʜᴀʟᴀ Sᴜʙ Fɪɴᴅᴇʀ</a>
+    ABOUT_TXT = """<b>○ 𝖬𝗒 𝖭𝖺𝗆𝖾</b>: <a href=https://t.me/SinhalaSubFinderRobot>Sɪɴʜᴀʟᴀ Sᴜʙ Fɪɴᴅᴇʀ</a>
 <b>○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋</b>: <a href=https://github.com/KisaraPesanjithPerera>★彡ᕲᗩᖇᖶᕼ ᐺᗩᕲᘿᖇ彡★</a>
 <b>○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒</b> : <a href=http://docs.pyrogram.org/>𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆</a>
 <b>○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾</b> : <a href=http://t.me/python>𝖯𝗒𝗍𝗁𝗈𝗇 𝟥</a>
