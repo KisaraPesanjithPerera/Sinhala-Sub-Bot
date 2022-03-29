@@ -1,12 +1,12 @@
 class script(object):
     START_TXT = """🔥𝓗𝓲 𝓣𝓱𝓮𝓻𝓮 {}
 
-♨️𝗔𝗱𝗱 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 𝗔𝗻𝗱 𝗚𝗶𝘃𝗲 𝗔𝗱𝗺𝗶𝗻. 𝗙𝗿𝗼𝗺 𝗧𝗵𝗮𝘁 𝗧𝗶𝗺𝗲 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗪𝗶𝗹𝗹 𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝗠𝗼𝘃𝗶𝗲𝘀 𝗔𝗻𝗱 𝗦𝗲𝗿𝗶𝗲𝘀 𝗙𝗼𝗿 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝘀. 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗛𝗮𝘃𝗲 𝗧𝗵𝗲 𝗟𝗮𝗿𝗴𝗲𝘀𝘁 𝗠𝗼𝘃𝗶𝗲 & 𝗦𝗲𝗿𝗶𝗲𝘀 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝗜𝗻 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺😜
+♨️𝗔𝗱𝗱 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 𝗔𝗻𝗱 𝗚𝗶𝘃𝗲 𝗔𝗱𝗺𝗶𝗻. 𝗙𝗿𝗼𝗺 𝗧𝗵𝗮𝘁 𝗧𝗶𝗺𝗲 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗪𝗶𝗹𝗹 𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝗦𝗶𝗻𝗵𝗮𝗹𝗮 𝗦𝘂𝗯𝘁𝗶𝘁𝗹𝗲𝘀 𝗙𝗼𝗿 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝘀. 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗛𝗮𝘃𝗲 𝗧𝗵𝗲 𝗟𝗮𝗿𝗴𝗲𝘀𝘁 𝗦𝗶𝗻𝗵𝗮𝗹𝗮 𝗦𝘂𝗯𝘁𝗶𝘁𝗹𝗲𝘀 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝗜𝗻 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺😜
 
 🤖By Using Our Service You Must Agree To Our Privacy Policy 👀"""
-    HELP_TXT = """🙋‍♂️𝙷𝙴𝚈 {}
+    HELP_TXT = """👋𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂🚀"""
-    ABOUT_TXT = """<b>○ 𝖬𝗒 𝖭𝖺𝗆𝖾</b>: <a href=https://t.me/BorutoAutoFilterRobot>Bᴏʀᴜᴛᴏ</a>
+    ABOUT_TXT = """<b>○ 𝖬𝗒 𝖭𝖺𝗆𝖾</b>: <a href=https://t.me/BorutoAutoFilterRobot>Sɪɴʜᴀʟᴀ Sᴜʙ Fɪɴᴅᴇʀ</a>
 <b>○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋</b>: <a href=https://github.com/KisaraPesanjithPerera>★彡ᕲᗩᖇᖶᕼ ᐺᗩᕲᘿᖇ彡★</a>
 <b>○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒</b> : <a href=http://docs.pyrogram.org/>𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆</a>
 <b>○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾</b> : <a href=http://t.me/python>𝖯𝗒𝗍𝗁𝗈𝗇 𝟥</a>
@@ -15,10 +15,10 @@ class script(object):
 <b>○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌</b> : <code>v1.0.1 [ Beta ]</code>"""
     MANUELFILTER_TXT = """Help: <b>Filters🧿</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and Boruto will respond whenever a keyword is found the message🍀
+- Filter is the feature were users can set automated replies for a particular keyword and Sinhala Sub Finder will respond whenever a keyword is found the message🍀
 
 <b>NOTE📝:</b>
-1. Boruto should have admin privillage.
+1. Sinhala Sub Finder should have admin privillage.
 2. Only admins can add filters in a chat.
 3. Alert buttons have a limit of 64 characters.
 
@@ -29,11 +29,11 @@ class script(object):
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons🧿</b>
 
-- Boruto supports both url and alert inline buttons🍀
+- Sinhala Sub Finder supports both url and alert inline buttons🍀
 
 <b>NOTE📝:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Boruto supports buttons with any telegram media type.
+2. Sinhala Sub Finder supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>📌URL Buttons:</b>
@@ -47,7 +47,8 @@ class script(object):
 1. Make me the admin of your channel if it's private.
 2. Make sure that your channel does not contains camrips, porn and fake files.
 3. Forward the last message to me with quotes.
-📂I'll add all the files in that channel to my db."""
+
+<b>📂I'll Add All The Files In That Channel To My db📥</b>"""
     CONNECTION_TXT = """Help: <b>Connections🧿</b>
 
 - Used to connect bot to PM for managing filters 
@@ -64,7 +65,7 @@ class script(object):
     EXTRAMOD_TXT = """Help: <b>Extra Modules🧿</b>
 
 <b>NOTE📝:</b>
-These are the extra features of Boruto🌹
+These are the extra features of Sinhala Sub Finder🌹
 
 <b>Commands and Usage🚀</b>
 • /id - <code>get id of a specified user.</code>
