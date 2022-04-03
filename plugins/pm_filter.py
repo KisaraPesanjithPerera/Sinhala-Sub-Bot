@@ -135,7 +135,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('This Movie Not Found In DataBase')
+            k = await query.message.edit('This Movie Not Found In DataBase😥')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -157,20 +157,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     title = chat.title
                 except:
                     await query.message.edit_text("Make sure I'm present in your group!!", quote=True)
-                    return await query.answer('Piracy Is Crime')
+                    return await query.answer('➥Bᴏᴛ Bʏ ✪ Aɴᴏɴʏᴍᴏᴜs Bᴏᴛ Iɴғɪɴɪᴛʏ ✪')
             else:
                 await query.message.edit_text(
                     "I'm not connected to any groups!\nCheck /connections or connect to any groups",
                     quote=True
                 )
-                return await query.answer('Piracy Is Crime')
+                return await query.answer('➥Bᴏᴛ Bʏ ✪ Aɴᴏɴʏᴍᴏᴜs Bᴏᴛ Iɴғɪɴɪᴛʏ ✪')
 
         elif chat_type in ["group", "supergroup"]:
             grp_id = query.message.chat.id
             title = query.message.chat.title
 
         else:
-            return await query.answer('Piracy Is Crime')
+            return await query.answer('➥Bᴏᴛ Bʏ ✪ Aɴᴏɴʏᴍᴏᴜs Bᴏᴛ Iɴғɪɴɪᴛʏ ✪')
 
         st = await client.get_chat_member(grp_id, userid)
         if (st.status == "creator") or (str(userid) in ADMINS):
@@ -224,7 +224,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=keyboard,
             parse_mode="md"
         )
-        return await query.answer('Piracy Is Crime')
+        return await query.answer('➥Bᴏᴛ Bʏ ✪ Aɴᴏɴʏᴍᴏᴜs Bᴏᴛ Iɴғɪɴɪᴛʏ ✪')
     elif "connectcb" in query.data:
         await query.answer()
 
@@ -268,7 +268,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode="md"
             )
-        return await query.answer('Piracy Is Crime')
+        return await query.answer('➥Bᴏᴛ Bʏ ✪ Aɴᴏɴʏᴍᴏᴜs Bᴏᴛ Iɴғɪɴɪᴛʏ ✪')
     elif "deletecb" in query.data:
         await query.answer()
 
@@ -286,7 +286,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode="md"
             )
-        return await query.answer('Piracy Is Crime')
+        return await query.answer('➥Bᴏᴛ Bʏ ✪ Aɴᴏɴʏᴍᴏᴜs Bᴏᴛ Iɴғɪɴɪᴛʏ ✪')
     elif query.data == "backcb":
         await query.answer()
 
@@ -297,7 +297,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(
                 "There are no active connections!! Connect to some groups first.",
             )
-            return await query.answer('Piracy Is Crime')
+            return await query.answer('➥Bᴏᴛ Bʏ ✪ Aɴᴏɴʏᴍᴏᴜs Bᴏᴛ Iɴғɪɴɪᴛʏ ✪')
         buttons = []
         for groupid in groupids:
             try:
