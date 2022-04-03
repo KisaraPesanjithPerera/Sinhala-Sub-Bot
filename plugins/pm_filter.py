@@ -245,7 +245,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         else:
             await query.message.edit_text('Some error occurred!!', parse_mode="md")
-        return await query.answer('Piracy Is Crime')
+        return await query.answer('➥Bᴏᴛ Bʏ ✪ Aɴᴏɴʏᴍᴏᴜs Bᴏᴛ Iɴғɪɴɪᴛʏ ✪')
     elif "disconnect" in query.data:
         await query.answer()
 
@@ -421,7 +421,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-        await query.answer('Piracy Is Crime')
+        await query.answer('➥Bᴏᴛ Bʏ ✪ Aɴᴏɴʏᴍᴏᴜs Bᴏᴛ Iɴғɪɴɪᴛʏ ✪')
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
@@ -558,7 +558,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         if str(grp_id) != str(grpid):
             await query.message.edit("Your Active Connection Has Been Changed. Go To /settings.")
-            return await query.answer('Piracy Is Crime')
+            return await query.answer('➥Bᴏᴛ Bʏ ✪ Aɴᴏɴʏᴍᴏᴜs Bᴏᴛ Iɴғɪɴɪᴛʏ ✪')
 
         if status == "True":
             await save_group_settings(grpid, set_type, False)
@@ -605,7 +605,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer('Piracy Is Crime')
+    await query.answer('➥Bᴏᴛ Bʏ ✪ Aɴᴏɴʏᴍᴏᴜs Bᴏᴛ Iɴғɪɴɪᴛʏ ✪')
 
 
 async def auto_filter(client, msg, spoll=False):
